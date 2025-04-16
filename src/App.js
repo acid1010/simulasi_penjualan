@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import SimulasiPenjualan from './simulasiPenjualan'; // Impor komponen SimulasiPenjualan
 
 function App() {
