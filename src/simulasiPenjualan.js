@@ -24,7 +24,7 @@ const SimulasiPenjualan = () => {
   const netProfitBulanan = labaBulanan - opBulanan;
 
   const sharingDivisiHarian = netProfitHarian * 0.6;
-  const sharingPendanaHarian = netProfitHarian * 0.4;
+  const sharingPendanaHarian = investasi / 11450000 * netProfitHarian * 0.4;
   const sharingDivisiBulanan = netProfitBulanan * 0.6;
   const sharingPendanaBulanan = netProfitBulanan * 0.4;
 
